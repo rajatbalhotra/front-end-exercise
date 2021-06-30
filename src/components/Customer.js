@@ -31,6 +31,11 @@ const Customer = (props) => {
           ? props.rentals.map((rentals, idx) => rentals.RentalDate)
           : null}
       </h3>
+      <h3>
+        {rentalDetails
+          ? props.rentals.map((rentals, idx) => rentals.ReturnDate)
+          : null}
+      </h3>
       <h3>{customerDetails ? props.address : null}</h3>
       <h4>{customerDetails ? props.country : null}</h4>
     </li>

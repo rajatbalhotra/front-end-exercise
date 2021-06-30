@@ -65,7 +65,7 @@ function App() {
         {movieDetails ? (
           <MoviesList customers={customers} movies={movies} />
         ) : null}
-        
+
         {customerDetails ? <CustomersList customers={customers} /> : null}
       </section>
     </React.Fragment>
